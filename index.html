@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Mada&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <nav>
+        <div id="nav_bar">
+            <div class="flex-item">
+                <a style="text-decoration: none;" id="nav_covedo" href="#">Covedo</a>
+                <div>
+                    <a style="text-decoration: none;" class="nav_list" id="nav_home" href="#">Home</a>
+                    <a style="text-decoration: none;" class="nav_list" id="nav_shop" href="#">Shop</a>
+                    <a style="text-decoration: none;" class="nav_list" id="nav_page" href="#">Page</a>
+                    <a style="text-decoration: none;" class="nav_list" id="nav_about" href="#">About Us</a>
+                    <a style="text-decoration: none;" class="nav_list" id="nav_lookups" href="#">Lookups</a>
+                </div>
+                <div id="nav_icons">
+                    <i class="bi bi-search" id="nav_search"></i>
+                    <i class="bi bi-person" id="nav_user"></i>
+                    <i class="bi bi-bell" style="margin-left: 20px;"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- hero section -->
+    <div class="container mt-5">
+        <div class="row hero-section">
+            <div class="col-md-8 group-1-2">
+                <div class="text-line" id="limited-time">Limited Time Only For Winter</div>
+                <div class="text-line" id="fashion">fashion</div>
+                <div class="text-line" id="look-your-best">LOOK YOUR BEST ON YOUR BEST DAY</div>
+                <button class="button">Explore Now!</button>
+            </div>
+            <div class="col-md-4 group-3">
+                <!-- Replace 'path/to/your-image.jpg' with the actual image path -->
+                <img src="https://s3-alpha-sig.figma.com/img/b0fb/61de/afb102c6e8d7f0068632414208c6bb5c?Expires=1707696000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=TY5-7REcy-LOS4zQvu-xxpAfKGMdQNiVZu5ZDtgWmJVHEmLHHutgkO6MvlhEehGUGU5-oGXImF8DHEl4IgPU4-FBy~~4NT0SARDGBp40etFNch~JvbLS1ICqIt2CMpahU7s4oHs~mzNFRgw9QsedyvSJehZqpzWBHrvpA616cPflrDKDhIIOsonm7rKIjDKfMJSsf1kbiHAVlB26xOGIeND770aPacQJtiSlTJxr67vAqgyGsj3hX3tSz3kclpol8F0OLfLwlH7JCFXTi9j42JGxjezumc~rXDl-n-e1chLR7wZ1GVow7FrHjCTnAI9RlJIx1wY4lj1gsQ85hvWGcA__"
+                    alt="Group 3 Image">
+            </div>
+        </div>
+    </div>
+
+    <!--collections-->
+    <div class="collection">
+        <p id="collection-id">COLLECTION</p>
+    </div>
+    <div class="collection">
+        <p id="top-collection">Our Top Collection</p>
+    </div>
+
+    <!--row of buttons-->
+    <div class="button-container">
+        <button class="custom-button">Jewellery</button>
+        <button class="custom-button" id="accessories">Accessories</button>
+        <button class="custom-button">Dresses</button>
+        <button class="custom-button">Footwear</button>
+      </div>
+
+      <!--next section-->
+      <div class="container mt-4">
+        <div class="row d-flex align-items-stretch">
+            <!-- First Row -->
+            <div class="col-md-4 mb-4">
+                <div class="card custom-card pink-section" id="card1">
+                    <div class="card-body p-0">
+                        <div class="pink-section" style="background-color: pink;">
+                            <img src="https://s3-alpha-sig.figma.com/img/d3a1/0ed5/4b87bba6e92cb722c665480c4bc79eee?Expires=1707696000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=P6CGc1y~bAH8hE4UMA3p8Lr8K~94LqcIJ40-Vj0eweS0qT46snUShIurJ-9UvsYImu14o2B1CqxspJsB~WUjKnvHB~8lDhI6A3Eg1GW9wfRpeGu2sBbmOUGsLV4Gey7YMNkCZYU-qEcdtcLCa2rICEgTcGlSn67pazC1eGCIJLWoXMzMbbv5cv6yxtNOt45XBKueA6WUcCYv05FSLrgMcLyK2uC1dQa2RVrIWz5DyKDJIMMmrKeXXMq37SVt2jySY~qQfx0-4II5-0WduTMQ7JWzAnVZltuITHKzgsy1xg5TGZUAIaIg59e0VoAipb1Bl9dKWwfVdQOYvvQyMkxN2Q__"
+                                alt="Image" class="img-fluid" alt="Image" class="img-fluid">
+                        </div>
+                        <div class="text-section">
+                            <h5 class="card-title">Card 1</h5>
+                            <p class="card-text">Some text goes here. Customize as needed.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <!-- ... -->
+                <div class="card custom-card pink-section" id="card2">
+                    <div class="card-body p-0">
+                        <div class="pink-section">
+                            <img src="https://s3-alpha-sig.figma.com/img/17a9/74d1/b95c794a24cb2aaf2b15932649089e26?Expires=1707696000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Yi03~BbR-kfwP7jxNxCrhLh0siaZ73B5ioa2yPMTwzWG68TrF1PtmxaFxVRJ2WV47zrdq07zfVV~J0~9hr2f3aP54eatuL3TAA1t2yOEol25mFKYlC81PVNGOea~CkPgBSMpptCjdaa137wL~Ch9TusksWvZsyw1tKu95w~rTL2wLsjScKeI1OOk7WSzwBNDfIqyHSkeWchf2ZHecSmQ-eoCl19VN3atDOhDV2BYk8wxcWfo6KuzSlJ-8YpMW1Xoyjs8PFnblaM6JSh5omPGIR4XfmYE1wwiR-PssmJRqUgUSBcDZhaSONZBFpRDI2t2T1frwEgz4pz3dt6rm00MgQ__"
+                                alt="Image" class="img-fluid" alt="Image" class="img-fluid">
+                        </div>
+                        <div class="text-section">
+                            <h5 class="card-title">Card 1</h5>
+                            <p class="card-text">Some text goes here. Customize as needed.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <!-- ... -->
+                <div class="card custom-card pink-section" id="card3">
+                    <div class="card-body p-0">
+                        <div class="pink-section">
+                            <img src="https://s3-alpha-sig.figma.com/img/dc1b/0526/6932cb1b1c75ddf56e298803ed279056?Expires=1707696000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=M8OkYHaPcWhYN84fFrUetnaEce7a73cKkREop8qnHfkkxEZg7YH0ohHTJvFllvRqQbOAtXRUDyany8FqPD972R0Vf9okzb0AtqZZYx8InWTdSFtiMty2Si7eiZEAWmjVXamHa6tkaWqCS6rJ6CWcDaVPxm6PaXf0F9Az1FbM6LymykCVq88lQPSqjlezwE-fZKkC29m55NzCggBhYtt9eEMpfojJorOR5si0yuDovaretJSbJZDjutiz-Q3mX9CNI1ai~fCPV-3wJXBme1anRV9xYXUVHKPEg~TwGX1-srLxpw2D1UbJBQrMUlurDgKJ4D1AzfGVX2Y5bYpbh7d45w__"
+                                alt="Image" class="img-fluid" alt="Image" class="img-fluid">
+                        </div>
+                        <div class="text-section">
+                            <h5 class="card-title">Card 1</h5>
+                            <p class="card-text">Some text goes here. Customize as needed.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+         <!--Latest Collection-->
+    <div class="collection" id="latest-collection">
+        <p id="collection-id">New Arrival</p>
+    </div>
+    <div class="collection">
+        <p id="top-collection">Latest Collection</p>
+    </div>
+
+    <div class="container" id="latest-collection-box">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="mb-3 red-bg"></div>
+            <div class="mb-3 yellow-bg"></div>
+          </div>
+          <div class="col-md-6">
+            <div class="mb-3 pink-bg"></div>
+          </div>
+        </div>
+      </div>
+
+
+       <!--Latest Collection-->
+    <div class="collection" id="latest-collection">
+        <p id="collection-id">CATEGORIES</p>
+    </div>
+    <div class="collection">
+        <p id="top-collection">2021 Latest Collection</p>
+    </div>
+
+
+    <div class="container mt-4" id="grid">
+        <div class="row d-flex align-items-stretch">
+            <!-- First Row -->
+            <div class="col-md-3 mb-4">
+                <div class="card custom-card">
+                    <div class="card-body p-0">
+                        <div class="pink-section">
+                            <img src="https://s3-alpha-sig.figma.com/img/c827/57c0/0f16a2e76707e32a5fae47b016c3e646?Expires=1707696000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=nvC7YzyhcLbxx~fsWYs4Epj1Q23pvzMCUcnhajXj8OM8DEW9IbhuLvOTTXM5B~6XrrrhyWRtRRi0vcT7lFEJa2RHB~uP~IyNz0LGdbVKDFOr1LRjTJmpi3ueqwsbriF5aRyGWSBreSSSOWouXZrq3MxNgoIPA~8FSH-mJJgBVrG6sHcq3BB5LIg4ZEJ5XcXFtvzVMGun2DQPNXwqPE0u-G6b1PwoOn4DMZ4fwrSJ-P4BsxFDLgG2e3Uk9T1pSXTrcZLbZoFqypKJWlVJTnrB-XUpjaUJ5FJa9pZbew13sLFFJIo~EqbWzMP-TQ3g2LzWPRwlCuX61hHFtLjTwRljgA__"
+                                alt="Image" class="img-fluid" alt="Image" class="img-fluid">
+                        </div>
+                        <div class="text-section">
+                            <h5 class="card-title">Card 1</h5>
+                            <p class="card-text">Some text goes here. Customize as needed.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <!-- Repeat this block for Cards 2, 3, and 4 -->
+                <!-- ... -->
+                <div class="card custom-card">
+                    <div class="card-body p-0">
+                        <div class="pink-section" style="background-color: pink;">
+                            <img src="https://s3-alpha-sig.figma.com/img/d3a1/0ed5/4b87bba6e92cb722c665480c4bc79eee?Expires=1707696000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=P6CGc1y~bAH8hE4UMA3p8Lr8K~94LqcIJ40-Vj0eweS0qT46snUShIurJ-9UvsYImu14o2B1CqxspJsB~WUjKnvHB~8lDhI6A3Eg1GW9wfRpeGu2sBbmOUGsLV4Gey7YMNkCZYU-qEcdtcLCa2rICEgTcGlSn67pazC1eGCIJLWoXMzMbbv5cv6yxtNOt45XBKueA6WUcCYv05FSLrgMcLyK2uC1dQa2RVrIWz5DyKDJIMMmrKeXXMq37SVt2jySY~qQfx0-4II5-0WduTMQ7JWzAnVZltuITHKzgsy1xg5TGZUAIaIg59e0VoAipb1Bl9dKWwfVdQOYvvQyMkxN2Q__"
+                                alt="Image" class="img-fluid" alt="Image" class="img-fluid">
+                        </div>
+                        <div class="text-section">
+                            <h5 class="card-title">Card 1</h5>
+                            <p class="card-text">Some text goes here. Customize as needed.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <!-- ... -->
+                <div class="card custom-card">
+                    <div class="card-body p-0">
+                        <div class="pink-section">
+                            <img src="https://s3-alpha-sig.figma.com/img/a29b/fbe1/d77c750ad08d1f5d41cc584e74276bdd?Expires=1707696000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=IeAGqaAKLyzquhgBAZhiDUTZovjWBVGsKZKbVw~dEzRFB2wBiJC49v~vh-GVlBLoK400sKcREnRgXjcc0cNewPJzkU0hfN-8MkaPrsxBOhpNfmXllBC-Sowc-kWLzCEJuY8skG3HXVmamalMVQMbjTS7V2DkjZMdDT2OOyjLGEfIEfxo2DTvlGVx6nhVfkBhnHXVZE5F0iydv2UqAbcR16v5DWxBii2I7m-H3AmWGv55w~bd8Sr1b1LeLzQH-lu0RKVtBFRnSfKU2HAfwV3YVQA22iNQKLuZDzHLVI-hqAVQjEsWCu2C8icHfVHCV2m5-h-beI-MrNDyCgDOluIYWg__"
+                                alt="Image" class="img-fluid" alt="Image" class="img-fluid">
+                        </div>
+                        <div class="text-section">
+                            <h5 class="card-title">Card 1</h5>
+                            <p class="card-text">Some text goes here. Customize as needed.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <!-- ... -->
+                <div class="card custom-card">
+                    <div class="card-body p-0">
+                        <div class="pink-section">
+                            <img src="https://s3-alpha-sig.figma.com/img/dc1b/0526/6932cb1b1c75ddf56e298803ed279056?Expires=1707696000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=M8OkYHaPcWhYN84fFrUetnaEce7a73cKkREop8qnHfkkxEZg7YH0ohHTJvFllvRqQbOAtXRUDyany8FqPD972R0Vf9okzb0AtqZZYx8InWTdSFtiMty2Si7eiZEAWmjVXamHa6tkaWqCS6rJ6CWcDaVPxm6PaXf0F9Az1FbM6LymykCVq88lQPSqjlezwE-fZKkC29m55NzCggBhYtt9eEMpfojJorOR5si0yuDovaretJSbJZDjutiz-Q3mX9CNI1ai~fCPV-3wJXBme1anRV9xYXUVHKPEg~TwGX1-srLxpw2D1UbJBQrMUlurDgKJ4D1AzfGVX2Y5bYpbh7d45w__"
+                                alt="Image" class="img-fluid" alt="Image" class="img-fluid">
+                        </div>
+                        <div class="text-section">
+                            <h5 class="card-title">Card 1</h5>
+                            <p class="card-text">Some text goes here. Customize as needed.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Second Row -->
+            <div class="col-md-3 mb-4">
+                <!-- Repeat this block for Cards 5, 6, 7, and 8 -->
+                <!-- ... -->
+                <div class="card custom-card">
+                    <div class="card-body p-0">
+                        <div class="pink-section">
+                            <img src="https://s3-alpha-sig.figma.com/img/6e68/782d/f665f8b2d86b2d1cc2350d5d1cbcc86c?Expires=1707696000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=aDZLuxRCCmfY20CoLSGlCLJUSTNFQkp-9kZ9nQMiyh2GEyqIA49mwJDVvBSAPMKfN0IDLRUjPKCivKxE2jycwfgQHOpIo46pFN03k2gLJNh1VPFAAz0Wj8wbYZhxADUWO8Icvet-prPv6~id5OTc7UmbfnNfRHv~xaPnD~-Ej2QeKPKY5xj-U3LZ1w0HkZEEHRsm3o8VgIFBFDzL3EeLaVhlU070QHFNQXeTzvwdpHAjTow7StFR1NJRee-b19Dtl0~iS~paaGoV3jThbFGy3UGtIvn0q~~GGEb7ryqebvkfd0xUitJyertid6-tnTSz6Qisr4EmZdxtKUK2ARwBAg__"
+                                alt="Image" class="img-fluid">
+                        </div>
+                        <div class="text-section">
+                            <h5 class="card-title">Card 1</h5>
+                            <p class="card-text">Some text goes here. Customize as needed.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <!-- ... -->
+                <div class="card custom-card">
+                    <div class="card-body p-0">
+                        <div class="pink-section">
+                            <img src="https://s3-alpha-sig.figma.com/img/604c/9727/2918a17655c758368aff446f5a2a282d?Expires=1707696000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=iVQByReNJi68FU6Hvt5tZrsBs0mdJbjQvaqBtGneTub9mITsiXaO~Vt-xZ7jLqjpJnvgfbjIn3RuXMQK3~Rlfsxqvi2AY8rlIuWzp72SvA~TqQrVZB88YiUCnItA53xnJA3rUj-Byk~zTllSOJVkK8oiyD~JCQad7rT8y-yINAmuxSH4WrzZLkjcCXtA1kOdkh-96cuQP9M46IWyyzwal8Ay6o9eH8gSovj3QfNfzC3DbWEWGUbj~MQpCCLBmyT3fnmXB~6EWz66RVQWJj4QiAgJeP~bQlwHlxwMpEsR2mfIp-dvtW7YQbnGc~oisLrNJvP2~PzFtYfXEbWsCr2Chw__"
+                                alt="Image" class="img-fluid">
+                        </div>
+                        <div class="text-section">
+                            <h5 class="card-title">Card 1</h5>
+                            <p class="card-text">Some text goes here. Customize as needed.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <!-- ... -->
+                <div class="card custom-card">
+                    <div class="card-body p-0">
+                        <div class="pink-section">
+                            <img src="https://s3-alpha-sig.figma.com/img/dbf5/57fa/844228621a075d32f2e70c0464f372e9?Expires=1707696000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=RZsNe2VNozE-zJjZeHRNaL8tH-SPWHjp6KUYEMjlVBAtuFaPBHAS0xboV-3l2koZuVpJ4jIZ91EBAgqF-2NDkANTN412xvozehrmZjEwVYSRuKpLiT3ECcKzDjueyXrkyqjGh1DZjWet~tUiNK09ynDvMK-HN3oAXDLi-VeTISnNQbzDnRZOvVCC83c5g5hmFZmkW1lWcd4oN2liiMwSyBNIhrEImM1aICaLct90iG42s8edSMeFz1qQkuaFpxbF82YUtM5D-~atrWwo~aYbg4RWUMSYdQfC5wx8yM4OaUtn3Ti86MLzLTEsuGG1zDd46mqlG~mLbizAeT5JJm7XAQ__"
+                                alt="Image" class="img-fluid">
+                        </div>
+                        <div class="text-section">
+                            <h5 class="card-title">Card 1</h5>
+                            <p class="card-text">Some text goes here. Customize as needed.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <!-- ... -->
+                <div class="card custom-card">
+                    <div class="card-body p-0">
+                        <div class="pink-section">
+                            <img src="https://s3-alpha-sig.figma.com/img/2e71/6a3b/a62d8a522eda1b2c84254f43f0da3c38?Expires=1707696000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MnjYBQZXyVgpvoM~oY0uKjfEUom2mkh9f1WL8FaeFHQd8oJzdNHoBmD-BgONs3wwqSCQJywslIL2pYvqhYBy~bZKKH5SAzx3aFospAZryEoR1xBq~e3d-bimGk10nLabsbkOauaa0yjMqAtRBXUAJR-R2vd0~eVMkqtymrrWKmQYaFGSIlWN8PwAjZMOBmQf6lxOCDKKGiVfyOPnHHSMeCADPNvgLFjZh~Gwsyo33GtUnfuAS3xWFp0mheC4288F7YB6pbfk8W7en5drC0~thHhVsb-zRFI6wtJmP3i4nXIKapUbyTnR0QoKFOwgt7EJiX7P78fDJoYK~1PPYVQRTQ__"
+                                alt="Image" class="img-fluid">
+                        </div>
+                        <div class="text-section">
+                            <h5 class="card-title">Card 1</h5>
+                            <p class="card-text">Some text goes here. Customize as needed.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
